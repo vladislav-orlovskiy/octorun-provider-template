@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "octorun-provider"
+python = "3.13"
+version = "0.1.0"
+description = "python based provider for octorun controller"
+authors = ["Uladzislau Orlovskiy <painanguishagony@gmail.com"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytoml = "^0.1.21"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pyrpc = "^0.4.0"
+ghapi = "^1.0.6"
